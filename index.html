@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/index.css"/>
+    
+    <script type="text/javascript" src="static/home.js" charset="utf-8"></script>
+    <title></title>
+
+  </head>
+
+  <body id="body"> 
+
+  <div class="contenedor-de-arriba">
+
+       <!-- 
+         
+        <div class="align">
+        <button onclick="buttonFunction()" class="flexbox_item-1">
+        apretame
+        </button>
+      </div>
+ 
+
+      <div class="buttons">
+        <button onclick="playSound('ver')" type="button" class="button1">
+        blog de ver
+        </button>
+      </div>
+    -->
+
+    <div class="contenedor-hola-click">
+
+
+        <div class="salut-hola">
+          <button onclick="playSound('salutHola')" type="button1" class="button1" >
+          <span id="salut-hola">salut hola</span>
+          </button>
+        </div>
+    
+      
+
+
+        <div class="cliqueame">
+          <button2 onclick="playSound('cliqueame')" type="button2" class="button2">
+          clique-moi cliqueame
+          </button2>
+        </div>
+
+    </div>
+
+
+
+    <!-- <div class="indicador-espanol">
+      
+      <div class="indicador-espanol-parte-sin-colores"> 
+        <p> 1 dibujo cada</p>
+      </div>  
+
+      <div class="indicador-espanol-parte-con-colores">
+        <p id="cifra-espanol"> 1 </p>
+        <p id="medida-espanol"> DIA </p>
+      </div>
+
+    </div> -->
+      
+      
+    <div class="indicador-frances">
+
+      <div class="indicador-frances-parte-sin-colores">
+        <p> le</p>
+        <p> dessin</p>
+        <p> change </p>
+        <p> tous </p>
+        <p> les </p>
+      </div>
+
+  
+      <div class="indicador-frances-parte-con-colores">
+        <p id="cifra-frances"> 1 </p>
+        <p id="medida-frances"> JOURS </p>
+      </div>
+
+
+    </div>
+
+
+
+
+
+
+    
+      
+  </div>
+
+
+  
+  <div class="contenedorCajas">
+    <form action="https://formsubmit.co/verena.montano@outlook.com" method="POST" class="form-example">
+    
+      <div class="caja1">    
+
+          
+            <div class="form-type-1">
+              <label for="qqch"> <p> imagine que la personne dans le dessin fait cette tête, comme réponse à ce que tu lui a dit. Qu'est-ce que tu lui as dit ? </p> </label>
+              <input type="text" name="qqch" id="qqch" required>
+            </div>
+          
+      </div>
+
+
+      <div class="caja2">
+        
+    
+                   
+            <div class="form-type-1">
+                <label for="colorIndex"><p id="colorIndex"> quel sentiment te procure l'image ? et si tu devais traduire ce sentiment en une couleur ? </p></label>
+                <input type="color" id="colorIndex" name="colorIndex" value="#e66465"/>
+            </div> 
+
+              
+            <div class="form-type-1">
+              <label for="sentimentIndex"><p id="sentimentIndex"> et si tu devais traduire ce sentiment en des mots ? </p> </label>
+              <input type="text" name="sentimentIndex" id="sentimentIndex" required>
+            </div>
+        
+            
+            <div class="ok">
+              <input onclick="passvalues()" value="ok" type="submit"/>
+            </div>
+      </div>      
+    </form>
+      
+
+
+  </div>
+
+
+
+  </body>
+</html>

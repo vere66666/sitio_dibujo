@@ -1,0 +1,98 @@
+
+
+
+
+p {
+  font-size: 1rem;
+  letter-spacing: 0rem;
+  font-family: geneva;
+  
+  width: 100%;
+  text-align: right;
+  
+  
+}
+
+.okButton {
+  margin-left: 20%;
+  height: 4em;
+}
+
+
+
+
+
+
+
+p {
+  text-align: right;
+  text-align: start;
+  border-radius: 4em;
+  
+}
+
+.form-color1 {
+  color: rgb(255, 166, 0);
+}
+
+.form-color2 {
+  color: rgba(10, 252, 159, 0.712);
+}
+
+.form-color3 {
+  color: rgb(7, 106, 219);
+}
+
+.form-color4 {
+  color: rgb(209, 202, 100);
+}
+
+.form-color5 {
+  color: rgba(127, 247, 201, 0.678);
+}
+
+.form-color6 {
+  color: rgb(226, 70, 83);
+}
+
+
+
+.flexboxContainerForms {  /* esto es de la page d'acceuil ! */
+  display: flex;
+  
+  align-items: center;
+
+  
+  /* flex-wrap: wrap; */
+  /* align-content:flex-start; */
+  cursor: url(../images/left.png);
+
+  width: 60%;
+  
+
+  
+}
+
+
+
+.form-color2, .form-color3, .form-color4, .form-color6 {
+  margin: 2em;
+  width: 10%;
+}
+
+
+
+
+.body-forms {
+  background-color: rgb(21, 21, 22);
+}
+
+
+
+.flexboxContainerForms input {
+  font: size 25px;
+  color: rgb(43, 168, 177);
+
+}
+
+
